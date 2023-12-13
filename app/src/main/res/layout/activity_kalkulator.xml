@@ -55,7 +55,8 @@
             android:gravity="end"
             android:textSize="30sp"
             android:textColor="@color/white"
-            android:text="5+10-3"/>
+
+            />
         <TextView
             android:id="@+id/output"
             android:layout_width="match_parent"
@@ -63,7 +64,8 @@
             android:gravity="end"
             android:textSize="50sp"
             android:textColor="@color/green"
-            android:text="12"/>
+
+            />
     </LinearLayout>
     <TableLayout
         android:layout_width="match_parent"

@@ -21,10 +21,6 @@ class RegisterActivity : AppCompatActivity() {
             val intent = Intent(this, KalkulatorActivity::class.java)
             startActivity(intent)
         }
-
-
-
-
     }
 
 }

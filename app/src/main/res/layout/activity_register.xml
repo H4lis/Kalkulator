@@ -71,7 +71,7 @@
                 android:background="@drawable/shape"
                 android:hint="Input Your Name"
                 android:paddingLeft="10dp"
-                android:textColorHint="@color/white"
+                android:textColorHint="@color/blackLight"
 
                 />
             <TextView
@@ -89,7 +89,7 @@
                 android:background="@drawable/shape"
                 android:hint="Input Your Email"
                 android:paddingLeft="10dp"
-                android:textColorHint="@color/white"
+                android:textColorHint="@color/blackLight"
 
                 />
 
@@ -109,7 +109,7 @@
                 android:background="@drawable/shape"
                 android:hint="Input Your Password"
                 android:paddingLeft="10dp"
-                android:textColorHint="@color/white"
+                android:textColorHint="@color/blackLight"
                 android:drawableEnd="@drawable/ic_eye"
                 android:paddingRight="10dp"
 
@@ -145,11 +145,11 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp"
         android:id="@+id/btn_register"
         android:text="Register"
-        android:backgroundTint="#19A54A"
         android:height="50dp"/>
 
 

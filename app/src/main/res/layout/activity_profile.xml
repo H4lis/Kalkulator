@@ -6,14 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/window_background"
-
     android:padding="16dp">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-
-      >
+        android:layout_height="?attr/actionBarSize">
 
 
 
@@ -22,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="Profile"
             android:fontFamily="@font/playfairdisplaysemibold"
-            android:textSize="20sp"
+            android:textSize="26sp"
             android:textColor="@color/white"
             android:layout_gravity="start"
             android:layout_marginEnd="56dp"/>
@@ -30,10 +27,10 @@
     </androidx.appcompat.widget.Toolbar>
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:id="@+id/profile_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:src="@drawable/profile"
         android:layout_gravity="center"
 
@@ -42,9 +39,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nurhalis"
+        android:text="Nurhalis Ilyas"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:layout_marginBottom="8dp" />
@@ -52,11 +49,78 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="60900121060"
+        android:text="Suku Makassar | Indonesia"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:layout_gravity="center"
+        android:textStyle="normal"
         android:layout_marginBottom="8dp" />
+    <View
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usia: 36"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            android:textStyle="normal"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan: S1 Sistem Informasi"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            android:textStyle="normal"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Belum Menikah"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pekerjaan: Insinyur Perangkat Lunak"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginBottom="8dp" />
+
+
+
+
+        <Button
+            android:layout_marginTop="130dp"
+            android:id="@+id/btn_Logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Logout"/>
+
+    </LinearLayout>
+
+
 
 
 
